@@ -68,8 +68,21 @@ section p {
     margin-bottom: 8px;
 }
 
+section p::first-letter {
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    line-height: 35px;
+    margin-right: 8px;
+
+}
+
 .store-front {
     margin-right: 32px;
+}
+
+.store-front {
+    border-radius: 10px;
 }
 
 /* Logos  de video-games */
